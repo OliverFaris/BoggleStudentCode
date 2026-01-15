@@ -1,9 +1,11 @@
 Name: YOUR NAME HERE
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date       |     Time      |                                                                                                                                                                                                                                                                                                                                                                                                                        Update |
+|:-----------|:-------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| January 6  |   Classtime   |                                                                                                                                                                              I mainly used this time to just think about and refresh my memory on tsts, tries, and dfs. I understand why we are using dfs and that we use it on each square in order to find words. I think the trie is neccessary for constant time lookups. |
+| January 7  |   Classtime   |                                                                                                                                                      I started making my dfs according to the psuedocode. I knew that if I hit a wall I need to return or if the prefix doesn't match I also have to return. I also have to keep track of a visited array too. I think I have mostly everything done except for the tst part. |
+| January 9  |   Classtime   |                                           I download TST.java again and the idea was to edit it a bit to make it not LZW specific. It became clear that I didn't need a code and that I needed a isEndOfWord variable or something like that. Replacing that wasn't too bad. With the TST done I worked on the main code (not dfs but the other part) where I realized I have to do dfs over every square and not just (0,0). |
+| January 12 | 10:00-10:40am |  The code didn't seem to work even after some troubleshooting and I had a feeling it had to do with my updated TST class. So I swapped it out with a trie I made for another pset. It was easier to work with/modify and I found it way simpiler to make a isPrefix funtion. This seemed to fix the issue and I also remembered Mr. Blick's advice on how to handle duplicates: Just make a word not a word when you find it. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
